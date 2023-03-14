@@ -1,0 +1,44 @@
+.container {
+    background-color: dimgray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sub-container {
+    background-color: rgb(208, 79, 79);
+    height: 500px;
+    border: 1px solid rgb(142, 123, 123);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.calculate-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    /* align-items: center; */
+}
+
+.btn{
+    height: 80px;
+    width: 100px;
+    font-weight: bold;
+    /* flex: 2; */
+}
+
+
+div.screen-input> input{
+    width: 410px;
+    height: 60px;
+    font-size: 28px;
+
+}
